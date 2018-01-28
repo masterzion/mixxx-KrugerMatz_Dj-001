@@ -1,1 +1,1 @@
-# mixxx-KrugerMatz_Dj-001
+# Mixxx Preset for Krüger & Matz Dj-001 Dj controller
