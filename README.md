@@ -1,12 +1,11 @@
 
-#Mixxx - Krüger & Matz Dj-001 Dj 
+# Mixxx - Krüger & Matz Dj-001 Dj controller
 
-Mixxx Preset for Krüger & Matz Dj-001Dj controller
-
-![](https://raw.githubusercontent.com/masterzion/mixxx-KrugerMatz_Dj-001/master/dj-001.png) 
+![Mixxx Preset for Krüger & Matz Dj-001Dj controller](https://raw.githubusercontent.com/masterzion/mixxx-KrugerMatz_Dj-001/master/dj-001.png)
 
 
-[https://www.krugermatz.com/en_US/p/DJ-001-controller/2280](https://www.krugermatz.com/en_US/p/DJ-001-controller/2280) 
+
+[https://www.krugermatz.com/en_US/p/DJ-001-controller/2280](https://www.krugermatz.com/en_US/p/DJ-001-controller/2280)
 
 
 **Installation: **
@@ -30,7 +29,6 @@ cd ./mixxx/controllers/
 ls
 mv KrugerMatz_Dj-001.xml MIDI_10_MIDI_1.midi.xml
 ```
-
 
 
 
