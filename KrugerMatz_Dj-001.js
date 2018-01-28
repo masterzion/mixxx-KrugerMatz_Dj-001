@@ -11,8 +11,8 @@ KrugerMatz001.wheelTouch = function (channel, control, value, status, group) {
   } else {
       currentDeck = 1;
   }
-//    if ((status & 0xF0) === 0x90) {    // If button down
-  if (value === 0x7F) {  // Some wheels send 0x90 on press and release, so you need to check the value
+    if ((status & 0xF0) === 0x90) {    // If button down
+//  if (value === 0x7F) {  // Some wheels send 0x90 on press and release, so you need to check the value
         var alpha = 1.0/8;
         var beta = alpha/32;
         engine.scratchEnable(currentDeck, 128, 15+1/3, alpha, beta);
