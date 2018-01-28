@@ -34,6 +34,8 @@ mv KrugerMatz_Dj-001.xml MIDI_10_MIDI_1.midi.xml
 
 References:
 
+[https://mixxx.org/](https://mixxx.org/)
+
 [https://www.mixxx.org/wiki/doku.php/mixxxcontrols#library](https://www.mixxx.org/wiki/doku.php/mixxxcontrols#library)
 
 [https://www.mixxx.org/wiki/doku.php/contributing_mappings](https://www.mixxx.org/wiki/doku.php/contributing_mappings)
