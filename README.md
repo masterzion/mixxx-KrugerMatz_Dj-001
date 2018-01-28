@@ -8,7 +8,7 @@
 [https://www.krugermatz.com/en_US/p/DJ-001-controller/2280](https://www.krugermatz.com/en_US/p/DJ-001-controller/2280)
 
 
-**Installation: **
+**Installation:**
 
 1) Clone the repository
 ``` bash
@@ -29,10 +29,7 @@ cd ./mixxx/controllers/
 ls
 mv KrugerMatz_Dj-001.xml MIDI_10_MIDI_1.midi.xml
 ```
-
-
-
-References:
+**References:**
 
 [https://mixxx.org/](https://mixxx.org/)
 
