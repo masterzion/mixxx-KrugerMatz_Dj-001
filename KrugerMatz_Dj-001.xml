@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <MixxxControllerPreset mixxxVersion="" schemaVersion="1">
-    <info/>
+    <info>
+        <name>Preset for Krüger &amp; Matz Dj-001</name>
+        <author>Jairo Master Zion</author>
+        <forums>https://github.com/masterzion/mixxx-KrugerMatz_Dj-001/pulls</forums>
+        <wiki>https://github.com/masterzion/mixxx-KrugerMatz_Dj-001/wiki</wiki>
+    </info>
     <controller id="MIDI">
         <scriptfiles>
             <file functionprefix="KrugerMatz001" filename="KrugerMatz_Dj-001.js"/>
@@ -8,7 +13,7 @@
         <controls>
             <control>
                 <group>[Channel2]</group>
-                <key>reloop_exit</key>
+                <key>loop_out</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
                 <midino>0x3C</midino>
@@ -105,6 +110,16 @@
                 </options>
             </control>
             <control>
+                <group>[Channel2]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x34</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel1]</group>
                 <key>loop_in</key>
                 <description>MIDI Learned from 2 messages.</description>
@@ -126,7 +141,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>reloop_exit</key>
+                <key>loop_out</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x80</status>
                 <midino>0x33</midino>
@@ -140,6 +155,16 @@
                 <description>MIDI Learned from 371 messages.</description>
                 <status>0xB0</status>
                 <midino>0x11</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x4B</midino>
                 <options>
                     <normal/>
                 </options>
@@ -176,7 +201,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>reloop_exit</key>
+                <key>loop_out</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x80</status>
                 <midino>0x3C</midino>
@@ -200,6 +225,16 @@
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x80</status>
                 <midino>0x3B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x34</midino>
                 <options>
                     <normal/>
                 </options>
@@ -245,7 +280,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>reloop_exit</key>
+                <key>loop_out</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
                 <midino>0x33</midino>
@@ -260,6 +295,16 @@
                 <midino>0x18</midino>
                 <options>
                     <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x4B</midino>
+                <options>
+                    <normal/>
                 </options>
             </control>
             <control>
@@ -293,6 +338,47 @@
                 </options>
             </control>
         </controls>
-        <outputs/>
+        <outputs>
+            <output>
+                <group>[Channel2]</group>
+                <key>play_indicator</key>
+                <status>0x90</status>
+                <midino>0x4C</midino>
+                <on>0x01</on>
+                <minimum>0.01</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>play_indicator</key>
+                <status>0x90</status>
+                <midino>0x4A</midino>
+                <on>0x01</on>
+                <minimum>0.01</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>loop_in_indicator</key>
+                <status>0x90</status>
+                <midino>0x40</midino>
+                <on>0x01</on>
+                <minimum>0.01</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>loop_enabled</key>
+                <status>0x90</status>
+                <midino>0x33</midino>
+                <on>0x01</on>
+                <minimum>0.01</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>loop_enabled</key>
+                <status>0x90</status>
+                <midino>0x3C</midino>
+                <on>0x01</on>
+                <minimum>0.01</minimum>
+            </output>
+        </outputs>
     </controller>
 </MixxxControllerPreset>
