@@ -40,14 +40,14 @@
         </options>
       </control>
       <control>
-        <group>[Library]</group>
-        <key>MoveFocusBackward</key>
-        <description>MIDI Learned from 2 messages.</description>
-        <status>0x90</status>
-        <midino>0x0D</midino>
-        <options>
-          <normal/>
-        </options>
+          <group>[Library]</group>
+          <key>MoveFocus</key>
+          <description>MIDI Learned from 2 messages.</description>
+          <status>0x90</status>
+          <midino>0x0D</midino>
+          <options>
+              <normal/>
+          </options>
       </control>
       <control>
         <group>[Channel2]</group>
