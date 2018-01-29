@@ -30,23 +30,23 @@
         </options>
       </control>
       <control>
-        <group>[Master]</group>
+        <group>[Library]</group>
         <key>KrugerMatz001.cursorTurn</key>
         <description>MIDI Learned from 218 messages.</description>
-        <status>0xBF</status>
+        <status>0xB0</status>
         <midino>0x1A</midino>
         <options>
-          <selectknob/>
+          <script-binding/>
         </options>
       </control>
       <control>
-        <group>[Master]</group>
-        <key>MoveFocusForward</key>
+        <group>[Library]</group>
+        <key>MoveFocusBackward</key>
         <description>MIDI Learned from 2 messages.</description>
-        <status>0x80</status>
+        <status>0x90</status>
         <midino>0x0D</midino>
         <options>
-          <script-binding/>
+          <normal/>
         </options>
       </control>
       <control>
@@ -313,16 +313,6 @@
         <description>MIDI Learned from 2 messages.</description>
         <status>0x90</status>
         <midino>0x4B</midino>
-        <options>
-          <normal/>
-        </options>
-      </control>
-      <control>
-        <group>[Master]</group>
-        <key>maximize_library</key>
-        <description>MIDI Learned from 2 messages.</description>
-        <status>0x90</status>
-        <midino>0x0D</midino>
         <options>
           <normal/>
         </options>

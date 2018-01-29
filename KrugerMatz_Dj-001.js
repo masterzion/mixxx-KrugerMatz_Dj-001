@@ -55,8 +55,11 @@ KrugerMatz001.wheelTurn = function (channel, control, value, status, group) {
 }
 
 KrugerMatz001.cursorTurn = function (channel, control, value, status, group) {
-    if ((status & 0xF0) === 0x90) {    // If button down
-        engine.MoveDown
+    if (value === 0x7F) {    // If button down
+        print("down")
+        engine.MoveDown;
     } else {    // If button up
-        engine.MoveUp
+        print("up")
+        engine.MoveUp;
     }
+}
