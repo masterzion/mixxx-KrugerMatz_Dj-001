@@ -11,15 +11,7 @@
       <file functionprefix="KrugerMatz001" filename="KrugerMatz_Dj-001.js"/>
     </scriptfiles>
     <controls>
-      <control>
-        <group>[Channel2]</group>
-        <key>KrugerMatz001.wheelTouch</key>
-        <status>0x80</status>
-        <midino>0x4E</midino>
-        <options>
-          <script-binding/>
-        </options>
-      </control>
+
       <control>
         <group>[Channel1]</group>
         <key>KrugerMatz001.wheelTouch</key>
@@ -30,8 +22,38 @@
         </options>
       </control>
       <control>
+        <group>[Channel1]</group>
+        <key>KrugerMatz001.wheelTurn</key>
+        <status>0xB0</status>
+        <midino>0x19</midino>
+        <options>
+          <script-binding/>
+        </options>
+      </control>
+
+
+      <control>
+        <group>[Channel2]</group>
+        <key>KrugerMatz001.wheelTouch</key>
+        <status>0x80</status>
+        <midino>0x4E</midino>
+        <options>
+          <script-binding/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>KrugerMatz001.wheelTurn</key>
+        <status>0xB0</status>
+        <midino>0x18</midino>
+        <options>
+          <script-binding/>
+        </options>
+      </control>
+
+      <control>
         <group>[Library]</group>
-        <key>KrugerMatz001.cursorTurn</key>
+        <key>KrugerMatz001.rotarySelector</key>
         <description>MIDI Learned from 218 messages.</description>
         <status>0xB0</status>
         <midino>0x1A</midino>
@@ -39,6 +61,8 @@
           <script-binding/>
         </options>
       </control>
+
+
       <control>
           <group>[Library]</group>
           <key>MoveFocus</key>
@@ -49,22 +73,14 @@
               <normal/>
           </options>
       </control>
+
+
       <control>
         <group>[Channel2]</group>
         <key>loop_out</key>
         <description>MIDI Learned from 2 messages.</description>
         <status>0x90</status>
         <midino>0x3C</midino>
-        <options>
-          <normal/>
-        </options>
-      </control>
-      <control>
-        <group>[Channel1]</group>
-        <key>beatsync_tempo</key>
-        <description>MIDI Learned from 2 messages.</description>
-        <status>0x80</status>
-        <midino>0x43</midino>
         <options>
           <normal/>
         </options>
@@ -160,16 +176,6 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
-        <key>beatsync_tempo</key>
-        <description>MIDI Learned from 2 messages.</description>
-        <status>0x90</status>
-        <midino>0x45</midino>
-        <options>
-          <normal/>
-        </options>
-      </control>
-      <control>
         <group>[EqualizerRack1_[Channel2]_Effect1]</group>
         <key>parameter1</key>
         <description>MIDI Learned from 371 messages.</description>
@@ -260,15 +266,6 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
-        <key>KrugerMatz001.wheelTurn</key>
-        <status>0xB0</status>
-        <midino>0x19</midino>
-        <options>
-          <script-binding/>
-        </options>
-      </control>
-      <control>
         <group>[Channel2]</group>
         <key>play</key>
         <description>MIDI Learned from 2 messages.</description>
@@ -286,25 +283,6 @@
         <midino>0x33</midino>
         <options>
           <normal/>
-        </options>
-      </control>
-      <control>
-        <group>[Channel2]</group>
-        <key>beatsync_phase</key>
-        <description>MIDI Learned from 2 messages.</description>
-        <status>0x80</status>
-        <midino>0x46</midino>
-        <options>
-          <normal/>
-        </options>
-      </control>
-      <control>
-        <group>[Channel2]</group>
-        <key>KrugerMatz001.wheelTurn</key>
-        <status>0xB0</status>
-        <midino>0x18</midino>
-        <options>
-          <script-binding/>
         </options>
       </control>
       <control>
@@ -337,16 +315,50 @@
           <normal/>
         </options>
       </control>
+
       <control>
         <group>[Channel1]</group>
-        <key>beatsync_phase</key>
+        <key>beatjump_1_forward</key>
         <description>MIDI Learned from 2 messages.</description>
-        <status>0x80</status>
+        <status>0x90</status>
         <midino>0x44</midino>
         <options>
           <normal/>
         </options>
       </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>beatsync_tempo</key>
+        <description>MIDI Learned from 2 messages.</description>
+        <status>0x90</status>
+        <midino>0x43</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+
+      <control>
+        <group>[Channel2]</group>
+        <key>beatjump_2_forward</key>
+        <description>MIDI Learned from 2 messages.</description>
+        <status>0x90</status>
+        <midino>0x46</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>beatsync_tempo</key>
+        <description>MIDI Learned from 2 messages.</description>
+        <status>0x90</status>
+        <midino>0x45</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+
+
       <control>
         <group>[Master]</group>
         <key>crossfader</key>
