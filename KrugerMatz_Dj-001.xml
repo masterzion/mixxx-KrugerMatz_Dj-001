@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MixxxControllerPreset mixxxVersion="" schemaVersion="1">
+<MixxxControllerPreset mixxxVersion="2.1.0-beta1" schemaVersion="1">
   <info>
-    <name>Preset for Krüger &amp; Matz Dj-001</name>
+    <name>Krüger &amp; Matz Dj-001</name>
+    <description>Krüger &amp; Matz Dj-001 for mixxx 2.1.0</description>
     <author>Jairo Master Zion</author>
     <forums>https://github.com/masterzion/mixxx-KrugerMatz_Dj-001/pulls</forums>
     <wiki>https://github.com/masterzion/mixxx-KrugerMatz_Dj-001/wiki</wiki>
   </info>
-  <controller id="MIDI">
+  <controller id="KrugerMatz001">
     <scriptfiles>
       <file functionprefix="KrugerMatz001" filename="KrugerMatz_Dj-001.js"/>
     </scriptfiles>
