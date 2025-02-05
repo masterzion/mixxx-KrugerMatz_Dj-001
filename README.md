@@ -19,7 +19,7 @@ git clone https://github.com/masterzion/mixxx-KrugerMatz_Dj-001.git
 2) Copy the files to:
 ``` bash
 cd mixxx-KrugerMatz_Dj-001
-cp  * ./mixxx/controllers/
+cp  * ~/.var/app/org.mixxx.Mixxx/.mixxx/controllers
 ```
 
 
