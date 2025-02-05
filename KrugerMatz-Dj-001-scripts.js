@@ -10,7 +10,7 @@ KrugerMatzDJ001.wheelTouch = function (channel, control, value, status, group) {
   if ((status & 0xF0) === 0x90) {    // If button down
       var alpha = 1.0/8;
       var beta = alpha/32;
-      engine.scratchEnable(currentDeck, 128, 15+1/3, alpha, beta);
+      engine.scratchEnable(currentDeck, 20, 33+1/3, alpha, beta);
   } else {    // If button up
       engine.scratchDisable(currentDeck);
   }
@@ -23,11 +23,12 @@ KrugerMatzDJ001.wheelTurn = function (channel, control, value, status, group) {
     currentDeck = 1;
   }
 
-  var newValue = value - 16;
+  var newValue = value - 66;
 
   if (currentDeck == 1) {
       newValue = newValue * -1;
   }
+  
   print(newValue)
   if (engine.isScratching(currentDeck)) {
       engine.scratchTick(currentDeck, newValue); // Scratch!
