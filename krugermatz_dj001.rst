@@ -9,6 +9,7 @@ The Krüger & Matz DJ-001 is a compact 2-deck DJ controller featuring a built-in
 - `Forum Thread <https://mixxx.discourse.group/>`__
 
 .. sectionauthor:: Jairo Master Zion
+.. versionadded:: 2.5
 
 Audio Interface Setup
 ---------------------
@@ -31,13 +32,13 @@ The controller is USB MIDI and Audio Class Compliant. It works on Linux, Windows
 Controller Mapping
 ------------------
 
-.. figure:: ../../../_static/controllers/krugermatz_dj001.svg
+.. figure:: ../../_static/controllers/krugermatz_dj001.png
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Krüger & Matz DJ-001 (schematic)
+   :alt: Krüger & Matz DJ-001
 
-   Krüger & Matz DJ-001
+   Krüger & Matz DJ-001 (layout)
 
 Decks (Channels 1 and 2)
 ~~~~~~~~~~~~~~~~~~~~~~~~
